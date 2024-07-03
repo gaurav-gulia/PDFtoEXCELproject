@@ -143,7 +143,7 @@ def main(pdf_path, extracted_excel_path):
     save_table_to_excel(concatenated_df, extracted_excel_path)
 
 if __name__ == "__main__":
-    pdf_path = "test9.pdf"
-    extracted_excel_path = "extracted_tables.xlsx"
+    pdf_path = r"test9.pdf"
+    extracted_excel_path = r"extracted_tables.xlsx"
 
     main(pdf_path, extracted_excel_path)

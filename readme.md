@@ -1,4 +1,4 @@
-# PDF Table Extractor
+# PDF To Excel sheet Extractor
 
 This tool extracts tables from PDF files and saves them into an Excel file. The tool leverages `PyMuPDF` for PDF processing, `pandas` for data manipulation, and `openpyxl` for Excel file handling.
 
@@ -20,7 +20,7 @@ This tool extracts tables from PDF files and saves them into an Excel file. The 
 
 1. Place the PDF file you want to extract tables from in the project directory.
 
-2. Modify the `main` function in `extractor.py` to specify the input PDF file path and the desired output Excel file path:
+2. Modify the `main` function in `main.py` to specify the input PDF file path and the desired output Excel file path:
     ```python
     pdf_path = "test9.pdf"
     extracted_excel_path = "extracted_tables.xlsx"
@@ -28,7 +28,7 @@ This tool extracts tables from PDF files and saves them into an Excel file. The 
 
 3. Run the script:
     ```bash
-    python extractor.py
+    python main.py
     ```
 
 4. The extracted tables will be saved in the specified Excel file.

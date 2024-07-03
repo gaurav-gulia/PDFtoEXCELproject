@@ -11,7 +11,9 @@ This tool extracts tables from PDF files and saves them into an Excel file. The 
 
 ## Installation
 
-1. Install the required dependencies:
+1. Clone the repository or download the source code.
+   
+2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
